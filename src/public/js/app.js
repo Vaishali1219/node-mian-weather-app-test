@@ -1,5 +1,3 @@
-window.alert("Hi")
-
 const messageOne = document.querySelector('#message-1');
 messageOne.textContent = 'Form Javascript'
 
