@@ -5,6 +5,7 @@ const hbs = require('hbs')
 const request = require('request')
 const cord = require('./utils/geocode.js')
 const pred = require('./utils/forecast.js')
+const port = process.env.PORT || 3000
 
 //console.log(__dirname)
 //console.log(path.join(__dirname, './public'))
@@ -97,8 +98,8 @@ app.get('*', (req, res) => {
 	})
 })
 
-app.listen(3000, () => {
-	console.log('Server started on port 3000')
+app.listen(port, () => {
+	console.log('Server started on port ' + port)
 })
 
 
