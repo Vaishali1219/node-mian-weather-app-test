@@ -1,0 +1,30 @@
+body {
+    color: red;
+    font-family: 'Metal Mania', cursive;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+h1 {
+    color: red;
+}
+
+img {
+    max-width: 300px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.navbar fixed-bottom navbar-light bg-light{
+    margin: 0 auto;
+    display: flex;
+}
+
+#content{
+    margin: 0 auto;
+}
+
+.container{
+    margin: 0 auto;
+}
