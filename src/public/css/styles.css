@@ -4,6 +4,17 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 16px;
+    /*background: url(./images/cloud.png);*/
+    background: url(https://cdn.pixabay.com/photo/2014/05/18/00/33/cloud-346710_960_720.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#message-1{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 h1 {
@@ -11,8 +22,8 @@ h1 {
 }
 
 img {
-    max-width: 300px;
-    max-height: 500px;
+    max-width: 100px;
+    max-height: 300px;
     margin: 0 auto;
 }
 

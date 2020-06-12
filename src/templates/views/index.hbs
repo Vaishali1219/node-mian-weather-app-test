@@ -13,9 +13,44 @@
 <body>
     {{>header}}
     <div class="container" id="content">
-        <img src="./images/vaish.jpg" />
-        <h2>Created by {{name}}</h2>
         <p id="message-1"></p>
+        <br />
+        <hr />
+        <br />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Values</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">TEMPERATURE</th>
+                    <td><span id="temp"></span><span>&#8451;</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">FEELS LIKE</th>
+                    <td><span id="feels"></span><span>&#8451;</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">MINIMUM_TEMPERATURE</th>
+                    <td><span id="min"></span><span>&#8451;</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">MAXIMUM_TEMPERATURE</th>
+                    <td><span id="max"></span><span>&#8451;</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">PRESSURE</th>
+                    <td><span id="pressure"></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">HUMIDITY</th>
+                    <td><span id="humidity"></span></td>
+                </tr>
+            </tbody>
+        </table>
         <p id="message-2"></p>
     </div>
 

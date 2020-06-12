@@ -14,8 +14,13 @@ $("#search").click(function (e) {
                 console.log(data.error)
             } else {
                 $("#message-1").text(data[0].location)
-                $("#message-2").text(data[0].forecast)
-                console.log(data[0].forecast + " in " + data[0].location)
+                $("#temp").text(data[0].forecast.temp)
+                $("#feels").text(data[0].forecast.feels_like)
+                $("#min").text(data[0].forecast.temp_min)
+                $("#max").text(data[0].forecast.temp_max)
+                $("#pressure").text(data[0].forecast.pressure)
+                $("#humidity").text(data[0].forecast.humidity)
+                console.log(data[0].forecast.temp + " in " + data[0].location)
             }
         })
     })
